@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "blockgen",
+	"version": "${version}",
+	"name": "Block Gen",
+	"description": "\uD83E\uDDF1 – Create custom blocks with models, textures, and hitboxes using easy config files. No coding needed!",
+	"authors": [
+		"superstrellaa"
+	],
+	"contact": {
+		"email": "superstrellayt@gmail.com",
+		"issues": "https://github.com/superstrellaa/Block-Gen/issues",
+		"sources": "https://github.com/superstrellaa/Block-Gen",
+		"homepage": "https://superstrellaa.is-a.dev"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/blockgen/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"es.superstrellaa.blockgen.BlockGen"
+		]
+	},
+	"mixins": [
+		"blockgen.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
